@@ -1,0 +1,77 @@
+@import "mixin.less";
+
+.hero {
+  padding-bottom: 220px;
+  &__title {
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #333333;
+  }
+  &__item {
+    &:nth-last-of-type(1) {
+      margin-bottom: 60px;
+    }
+    &-icon {
+      float: left;
+      &--active {
+      }
+    }
+    &-title {
+      position: relative;
+      margin-left: 32px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.18;
+      letter-spacing: normal;
+      color: #666666;
+      transition: .3s ease;
+      &:hover {
+        color: #f87e1f;
+        cursor: pointer;
+      }
+      &:before {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        top: 0;
+        left: -35px;
+        background: url(../img/icon/item-icon.png) 50% 50% no-repeat;
+      }
+      &--active {
+        color: #f87e1f;
+        &:before {
+          position: absolute;
+          content: "";
+          height: 20px;
+          width: 20px;
+          top: 0;
+          left: -35px;
+          background: url(../img/icon/item-icon-active.png) 50% 50% no-repeat;
+        }
+      }
+    }
+    &-description {
+      display: none;
+      width: 53%;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.44;
+      letter-spacing: normal;
+      color: #666666;
+      &--active {
+        display: block;
+      }
+    }
+  }
+  &__btn {
+    .main-btn;
+  }
+}

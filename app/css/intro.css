@@ -1,0 +1,17 @@
+.intro {
+  padding: 40px 0 42px 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#1f6db6), to(#00a6e8));
+  background-image: -webkit-linear-gradient(left, #1f6db6, #00a6e8);
+  background-image: linear-gradient(to right, #1f6db6, #00a6e8);
+}
+.intro__title {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}

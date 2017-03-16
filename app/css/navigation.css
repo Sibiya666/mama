@@ -1,0 +1,28 @@
+.navigation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.navigation__item {
+  padding: 11px 1.65em 12px 0;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #666666;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+.navigation__item:hover {
+  color: #000;
+}
+.navigation__item:nth-last-child(1) {
+  padding-right: 0;
+}

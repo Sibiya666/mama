@@ -1,0 +1,48 @@
+.main-btn {
+  padding: 8px 30px;
+  border: 1px solid #00a6e8;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00a6e8;
+}
+.vacancies {
+  padding-top: 80px;
+  background-color: #f5f5f5;
+}
+.vacancies__title {
+  margin: 0 148px 0 0;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+.vacancies__btn {
+  float: right;
+  padding: 8px 30px;
+  border: 1px solid #00a6e8;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00a6e8;
+}

@@ -1,0 +1,30 @@
+.user-panel {
+  display: flex;
+  background: #323237;
+  &__list {
+    display: flex;
+    flex-basis: 480px;
+    justify-content: flex-end;
+    padding: 7px 0 8px;
+    margin: 0;
+    list-style: none;
+    &-item {
+      display: flex;
+      align-items: center;
+      margin-right: 2em;
+      &:nth-last-child(1) {
+        margin-right: 0;
+      }
+    }
+    &-link {
+      font-family: OpenSans;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: #cccccc;
+    }
+  }
+}
